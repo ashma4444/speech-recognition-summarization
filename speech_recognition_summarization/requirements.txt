@@ -1,0 +1,7 @@
+django
+transformers
+torch
+librosa
+numpy
+sentencepiece
+

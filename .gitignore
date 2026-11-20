@@ -1,0 +1,27 @@
+# Model files (too large for GitHub)
+model/
+summarizer/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Django
+db.sqlite3
+*.log
+
+# Environment
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,50 @@
+* {
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	box-sizing: border-box;
+}
+
+.main {
+	background-color: #d0ded8;
+	padding: 50px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.secondary {
+	background-color: #f5effb;
+	padding: 40px;
+	border-radius: 40px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+		rgba(0, 0, 0, 0.05) 0px 5px 10px;
+	min-width: 50%;
+}
+
+button {
+	padding: 10px 22px;
+	border-radius: 20px;
+	border: none;
+	background: #00abb3;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+button:disabled {
+	background-color: #d3d3d3; /* Light gray background */
+	color: #a9a9a9; /* Gray text */
+	cursor: not-allowed; /* Show not-allowed cursor */
+	opacity: 0.7; /* Reduce opacity */
+	border: 1px solid #ccc; /* Subtle border for disabled state */
+}
+
+i {
+	color: #ffffff;
+	font-size: 16px;
+	margin-right: 2px;
+}
